@@ -23,69 +23,57 @@ p {
         - red, 500px, solid, black, etc.
 
 ## Types of Selectors
-<table class="standard-table no-markdown">
+<table>
   <thead>
     <tr>
-      <th scope="col">Selector</th>
-      <th scope="col">Example</th>
-      <th scope="col">Learn CSS tutorial</th>
+      <th>Selector</th>
+      <th>Example</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a href="/en-US/docs/Web/CSS/Type_selectors">Type selector</a></td>
+      <td>Type selector</td>
       <td><code>h1 {&nbsp; }</code></td>
-      <td><a href="/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors#type_selectors">Type selectors</a></td>
     </tr>
     <tr>
-      <td><a href="/en-US/docs/Web/CSS/Universal_selectors">Universal selector</a></td>
+      <td>Universal selector</td>
       <td><code>* {&nbsp; }</code></td>
-      <td><a href="/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors#the_universal_selector">The universal selector</a></td>
     </tr>
     <tr>
-      <td><a href="/en-US/docs/Web/CSS/Class_selectors">Class selector</a></td>
+      <td>Class selector</td>
       <td><code>.box {&nbsp; }</code></td>
-      <td><a href="/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors#class_selectors">Class selectors</a></td>
     </tr>
     <tr>
-      <td><a href="/en-US/docs/Web/CSS/ID_selectors">id selector</a></td>
+      <td>id selector</td>
       <td><code>#unique { }</code></td>
-      <td><a href="/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors#id_selectors">ID selectors</a></td>
     </tr>
     <tr>
-      <td><a href="/en-US/docs/Web/CSS/Attribute_selectors">Attribute selector</a></td>
+      <td>Attribute selector</td>
       <td><code>a[title] {&nbsp; }</code></td>
-      <td><a href="/en-US/docs/Learn/CSS/Building_blocks/Selectors/Attribute_selectors">Attribute selectors</a></td>
     </tr>
     <tr>
-      <td><a href="/en-US/docs/Web/CSS/Pseudo-classes">Pseudo-class selectors</a></td>
+      <td>Pseudo-class selectors</td>
       <td><code>p:first-child { }</code></td>
-      <td><a href="/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements#what_is_a_pseudo-class">Pseudo-classes</a></td>
     </tr>
     <tr>
-      <td><a href="/en-US/docs/Web/CSS/Pseudo-elements">Pseudo-element selectors</a></td>
+      <td>Pseudo-element selectors</td>
       <td><code>p::first-line { }</code></td>
-      <td><a href="/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements#what_is_a_pseudo-element">Pseudo-elements</a></td>
     </tr>
     <tr>
-      <td><a href="/en-US/docs/Web/CSS/Descendant_combinator">Descendant combinator</a></td>
+      <td>Descendant combinator/td>
       <td><code>article p</code></td>
-      <td><a href="/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators#descendant_selector">Descendant combinator</a></td>
     </tr>
     <tr>
-      <td><a href="/en-US/docs/Web/CSS/Child_combinator">Child combinator</a></td>
+      <td>Child combinator</td>
       <td><code>article &gt; p</code></td>
-      <td><a href="/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators#child_combinator">Child combinator</a></td>
     </tr>
     <tr>
-      <td><a href="/en-US/docs/Web/CSS/Adjacent_sibling_combinator">Adjacent sibling combinator</a></td>
+      <td>Adjacent sibling combinator</td>
       <td><code>h1 + p</code></td>
-      <td><a href="/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators#adjacent_sibling">Adjacent sibling</a></td>
     </tr>
     <tr>
-      <td><a href="/en-US/docs/Web/CSS/General_sibling_combinator">General sibling combinator</a></td>
+      <td>General sibling combinator</td>
       <td><code>h1 ~ p</code></td>
-      <td><a href="/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators#general_sibling">General sibling</a></td>
     </tr>
   </tbody>
 </table>
