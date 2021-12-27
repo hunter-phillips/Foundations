@@ -79,6 +79,14 @@ p {
 </table>
 <a href='https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors#reference_table_of_selectors'>MDN Selectors</a>
 
+## Specificity 
+- When an element has multiple, conflicting declaration targeting it, specificity determines which values to use.
+- From most to least specific:
+    1. ID Selector
+    2. Class Selector
+    3. Type Selector
+- If two items have the same amount of specificity, whichever comes second will appear.
+
 ## Fonts
 ### Font Properties
 | Property     | Options                       | Description                          | Example                                |
