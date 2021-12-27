@@ -1,103 +1,103 @@
 # Command Line
 ## Hotkeys
-- Ctrl + A
+- `Ctrl + A`
     - Beginning of Line
-- Ctrl + E
+- `Ctrl + E`
     - End of Line
-- Ctrl + U
+- `Ctrl + U`
     - Deletes from Current Position to Beginning of Line
 
 ## Fundamental Commands
-- whoami
+- `whoami`
     - Returns User
-- pwd -<flags>
+- `pwd -<flags>`
     - Returns Present Working Directory
     - Flags
-        - p
+        - `p`
             - Returns full physical path with symlinks
-- ls -<flags>
+- `ls -<flags>`
     - Returns all Visible Files and Directories
     - Flags
-        - a
+        - `a`
             - Lists all visible and invisible files
-        - l
+        - `l`
             - Returns more detailed information about the files, including modification time, size, and creator
-        - h
+        - `h`
             - Returns sizes in a human-readable format
-        - S
+        - `S`
             - Sorts by size (default is alphabetical)
-        - t
+        - `t`
             - Sorts by last modified time
-        - r
+        - `r`
             - Reverses order
     - Note: Flags can be used together, such as "ls -al"
-- cd <directory>
+- `cd <directory>`
     - Changes Directory
     - Directory Shorthand:
-        - ..
+        - `..`
             - Changes the directory to the parent
-        - Only calling "cd" will return to home "~"
-- echo
+        - Only calling `cd` will return to home `~`
+- `echo`
     - Prints Text to the Command Line
-- cat <file>
+- `cat <file>`
     - Prints Contents of a File
-- man <cmd>
+- `man <cmd>`
     - Opens a Manual for the Command
-- grep -<flags> <pattern>
+- `grep -<flags> <pattern>`
     - Searches for a Pattern
-    - Using Wildcard (*)
+    - Using Wildcard `*`
         - The wildcard can be used to search for patterns, such as all text files that start with b:
-            - grep b*.txt
+            - `grep b*.txt`
     - Flags
-        - i
+        - `i`
             - Ignores case
-- sudo <cmd>
+- `sudo <cmd>`
     - Placed Before a Command to Run it as Root
 
 ## File Manipulation
-- ln -<flags> <source> <target>
+- `ln -<flags> <source> <target>`
     - Creates a Hard Link between Two Files
         - The target updates as the source changes and vice versa.
     - Flags
-        - f
+        - `f`
             - Forces a link if the target already exists
-        - s
+        - `s`
             - Creates a soft link that references the source file
     - Note: Flags are placed before file names
-- mkdir -<flags> <dir>
+- `mkdir -<flags> <dir>`
     - Creates a New Directory
     - Flags
-        - p <dir>/<dir>/<dir>
+        - `p <dir>/<dir>/<dir>`
             - Creates nested directory
-        - v
+        - `v`
             - Prints results to console
-- cp -<flags> <source> <target> <optional dir>
+- `cp -<flags> <source> <target> <optional dir>`
     - Copies Source to Target
     - Flags
-        - R <source dir> <target dir>
+        - `R <source dir> <target dir>`
             - Recursively copies all files from source directory to target directory
-        - f 
+        - `f`
             - Forces a copy if a file exists
-        - i
+        - `i`
             - Asks user to confirm overwrite if a file exists
-- rm -<flags> <files>
+- `rm -<flags> <files>`
     - Deletes Files
     - Flags
         - Uses the same flags as cp
-- rmdir <dir>
+- `rmdir <dir>`
     - Deletes a Directory
-- mv -<flags> <source> <target>
+- `mv -<flags> <source> <target>`
     - Moves a File and Deletes the Original
     - Flags
         - Uses the same flags as cp
     - Note: Source and Target can be Paths
 
 ## Special Symbols
-- <cmd> | <cmd>
+- `<cmd> | <cmd>`
     - Pipes the Output of the First Command as Input for the Second Command
-- <cmd> > <target file>
+- `<cmd> > <target file>`
     - Writes a Command's Output to a Target File
-- <cmd> >> <target file>
+- `<cmd> >> <target file>`
     - Appends a Command's Output to a Target File
 
     
