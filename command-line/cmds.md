@@ -10,12 +10,12 @@
 ## Fundamental Commands
 - whoami
     - Returns User
-- pwd -&lt;flags&gt;
+- pwd -<flags>
     - Returns Present Working Directory
     - Flags
         - p
             - Returns full physical path with symlinks
-- ls -&lt;flags&gt;
+- ls -<flags>
     - Returns all Visible Files and Directories
     - Flags
         - a
@@ -31,7 +31,7 @@
         - r
             - Reverses order
     - Note: Flags can be used together, such as "ls -al"
-- cd &lt;directory&gt;
+- cd <directory>
     - Changes Directory
     - Directory Shorthand:
         - ..
@@ -39,11 +39,11 @@
         - Only calling "cd" will return to home "~"
 - echo
     - Prints Text to the Command Line
-- cat &lt;file&gt;
+- cat <file>
     - Prints Contents of a File
-- man &lt;cmd&gt;
+- man <cmd>
     - Opens a Manual for the Command
-- grep -&lt;flags&gt; &lt;pattern&gt;
+- grep -<flags> <pattern>
     - Searches for a Pattern
     - Using Wildcard (*)
         - The wildcard can be used to search for patterns, such as all text files that start with b:
@@ -51,11 +51,11 @@
     - Flags
         - i
             - Ignores case
-- sudo &lt;cmd&gt;
+- sudo <cmd>
     - Placed Before a Command to Run it as Root
 
 ## File Manipulation
-- ln -&lt;flags&gt; &lt;source&gt; &lt;target&gt;
+- ln -<flags> <source> <target>
     - Creates a Hard Link between Two Files
         - The target updates as the source changes and vice versa.
     - Flags
@@ -64,40 +64,40 @@
         - s
             - Creates a soft link that references the source file
     - Note: Flags are placed before file names
-- mkdir -&lt;flags&gt; &lt;dir&gt;
+- mkdir -<flags> <dir>
     - Creates a New Directory
     - Flags
-        - p &lt;dir&gt;/&lt;dir&gt;/&lt;dir&gt;
+        - p <dir>/<dir>/<dir>
             - Creates nested directory
         - v
             - Prints results to console
-- cp -&lt;flags&gt; &lt;source&gt; &lt;target&gt; &lt;optional dir&gt;
+- cp -<flags> <source> <target> <optional dir>
     - Copies Source to Target
     - Flags
-        - R &lt;source dir&gt; &lt;target dir&gt;
+        - R <source dir> <target dir>
             - Recursively copies all files from source directory to target directory
         - f 
             - Forces a copy if a file exists
         - i
             - Asks user to confirm overwrite if a file exists
-- rm -&lt;flags&gt; &lt;files&gt;
+- rm -<flags> <files>
     - Deletes Files
     - Flags
         - Uses the same flags as cp
-- rmdir &lt;dir&gt;
+- rmdir <dir>
     - Deletes a Directory
-- mv -&lt;flags&gt; &lt;source&gt; &lt;target&gt;
+- mv -<flags> <source> <target>
     - Moves a File and Deletes the Original
     - Flags
         - Uses the same flags as cp
     - Note: Source and Target can be Paths
 
 ## Special Symbols
-- &lt;cmd&gt; | &lt;cmd&gt;
+- <cmd> | <cmd>
     - Pipes the Output of the First Command as Input for the Second Command
-- &lt;cmd&gt; &gt; &lt;target file&gt;
+- <cmd> > <target file>
     - Writes a Command's Output to a Target File
-- &lt;cmd&gt; &gt;&gt; &lt;target file&gt;
+- <cmd> >> <target file>
     - Appends a Command's Output to a Target File
 
     
