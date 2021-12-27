@@ -1,5 +1,7 @@
 # Command Line
 ## Hotkeys
+- `Ctrl + Alt + T`
+    - Open Terminal
 - `Ctrl + A`
     - Beginning of Line
 - `Ctrl + E`
