@@ -77,4 +77,42 @@ p {
     </tr>
   </tbody>
 </table>
+<a href='https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors#reference_table_of_selectors'>MDN Selectors</a>
 
+## Fonts
+### Font Properties
+| Property     | Options                       | Description                          | Example                                |
+|--------------|-------------------------------|--------------------------------------|----------------------------------------|
+| font-family  | Times, sans-serif, etc.       | change the font family               | `font-family: Times, serif;`           |
+| font-style   | normal, oblique, italics      | change text                          | `font-style: normal;`                  |
+| font-variant | normal, small-caps            | display font in normal or small caps | `font-variant: small-caps;`            |
+| font-weight  | 1-1000; normal, bold          | specify the weight of the font       | `font-weight: bold;`                   |
+| font-size    | large; larger; px; em; rem; % | modify the size of font              | `font-size: 12px;`                     |
+
+### Add Custom Font From Google
+- Go to <a href='https://fonts.google.com/'>Google Fonts</a> and select the fonts.
+- Copy the `<link>` of the selected families and paste them into the `<head>`.
+    ```
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+    ```
+
+## Color and Background Properties
+| Property            | Options                          | Description                                   | Example                                   |
+|---------------------|----------------------------------|-----------------------------------------------|-------------------------------------------|
+| color               | rgb, hex, names, rgba, etc.      | change the color of text                      | `color: #000080;`                         |
+| background-color    | ibid.                            | changes the background color of an element    | `background-color: white;`                |
+| background-image    | absolute or relative link        | changes the background image of an element    | `background-image: url(/images/foo.gif);` |
+| background-repeat   | repeat-x; repeat-y; no-repeat    | determines how a background image is repeated | `background-repeat: repeat-x'`            |
+| background-position | top; bottom; left; right; center | initial position of the background image      | `background-position: center;`            |
+
+## Text Properties
+| Property        | Options                                        | Description                                            | Example                      |
+|-----------------|------------------------------------------------|--------------------------------------------------------|------------------------------|
+| word-spacing    | em, rem, px, etc.                              | changes the spacing between words                      | `word-spacing: 0.4em;`       |
+| letter-spacing  | ibid.                                          | sets the amount of space between characters            | `letter-spacing: 0.1em;`     |
+| text-decoration | underline, overline, line-through, blink, none | decorates the text                                     | `text-decoration: none;`     |
+| vertical-align  | baseline, middle, top, bottom, etc.            | vertically aligns inline elements relative to a parent | `vertical-align: middle;`    |
+| text-transform  | capitalize, uppercase, lowercase; none         | changes capitalization of text                         | `text-transform: uppercase;` |
+| text-align      | left, center, right, justify                   | aligns text horiztonally                               | `text-align: center;`        |
