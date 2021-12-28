@@ -63,4 +63,5 @@
 | border-style        | sets the style of the border (none; dotted; dashed; solid; double)                                 | `border-style: dotted;`                                    |
 | border-&lt;side&gt; | sets the width, color, and style of the top, right, bottom, or left border                         | `border-left: 5px red double;`                             |
 | border              | sets the width, color, and style of all the borders                                                | `border: 5px red double;`                                  |
-
+| border radius       | rounds the corners of an element                                                                   | `border-radius: 5px;` 
+                                   |
