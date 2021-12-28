@@ -173,7 +173,8 @@
     - Represents nested browsing context, embedding another HTML page into the current one
 - `<object type='application/pdf' data='path'></object>`
     - Represents an external resource that can be treated as an image, a nested browsing context, or a resource to be handled by a plugin
-- ```<picture>
+- ```
+    <picture>
         <source srcset='' media='(min-width: 500px)'>
         <img src='' alt=''>
     </picture>
