@@ -1,8 +1,8 @@
 # The Box Model
 - Everything on a webpage, at its simplest, is a rectangular box.
-- <img href='https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/the-box-model/imgs/boxes.png'>
+<img href='https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/the-box-model/imgs/boxes.png'>
 
-## Block and Inline Boxes
+## Display: Block and Inline Boxes
 ### Block
 - Elements with a display type of `block` will:
     - Break onto a new line
@@ -17,10 +17,15 @@
     - Vertical padding, margins, and borders will apply but will not cause other inline boxes to move away
     - Horiztonal padding, margins, and borders will apply and will cause other inline boxes to move away
 - `<a>`, `<span>`, and `<em>` are examples.
+### Inline-Block
+- Elements with `display: inline-block` will:
+    - Not break onto a new line
+    - Width and height properties are respected
+    - Padding, margin, and border cause other elements to be pushed away
 
 
 ## Breaking Down the Box Model
-- <img href='https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model/box-model.png'>
+<img href='https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model/box-model.png'>
 - There are four main components of a box:
     - `content`: area where content is displayed that can be sized using `width` and `height`
     - `padding`: increases the space between the border of a box and the content inside of it
@@ -39,6 +44,8 @@
 | margin-left   | sets the left margin                                                                 | `margin-left: 1rem;`                                                |
 | margin        | set top/bottom and left/right<br>set all margins<br>set top, right, left, and bottom | `margin: 2em 4em;`<br>`margin: 5px;`<br>`margin:  1em 2em 3em 4em;` |
 
+- To horiztonally center an element, set its `width` and then use the following margin: 
+    - `margin: 0 auto;`
 ## Padding Properties
 | Property      | Description                                                                          | Example                                                             |
 |---------------|--------------------------------------------------------------------------------------|---------------------------------------------------------------------|
