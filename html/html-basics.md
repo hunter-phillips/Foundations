@@ -65,3 +65,9 @@
     - It takes an attribute called `href` that refers to hypertext reference.
 
    `<a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a>`
+
+### Divs and Spans
+- Divs and spans are generic elements that can contain anything.
+    - `<div>`
+    - `<span>`
+- They are great "hook" elements that can be used for grouping related elements for styling.
