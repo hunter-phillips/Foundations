@@ -1,0 +1,21 @@
+header, section, div, footer{
+    box-sizing: border-box;
+    background-color: green;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+div{
+    position: relative;
+    height: 100px;
+}
+section{
+    position: absolute;
+    width: 50%;
+    top: 0;
+    left: 0;
+}
