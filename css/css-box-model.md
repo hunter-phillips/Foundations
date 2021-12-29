@@ -26,6 +26,7 @@
 
 ## Breaking Down the Box Model
 <img src='https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model/box-model.png'>
+
 - There are four main components of a box:
     - `content`: area where content is displayed that can be sized using `width` and `height`
     - `padding`: increases the space between the border of a box and the content inside of it
