@@ -1,5 +1,5 @@
 # Positioning Content
-## Positioning With Floats
+## Positioning with Floats
 - The `float` property is versatile and can be used in a number of ways.
     - It removes an element from the normal flow of a page and positions it to the left or right of its parent element.
     - All other elements then flow around the floated element.
@@ -31,3 +31,45 @@
     ```
     - The pseudo-elements `::before` and `::after` dynamically generate elements above and below the element and are displayed as table-level elements.
     - The `clear: both;` in the second and third rulesets clears the floats and returns the page back to normal after the container, and it contains some trickery for old browsers.
+
+## Position with Inline-Block 
+- The `display: inline-block` property and value can be used to layout elements next to each other.
+- One concern that must be addressed is that between all inline-block elements, there is a single space between them that needs to be removed for optimal formatting.
+    - In the HTML document, the space between the `</section>` of one element and the `<section>` of the next element can be removed.
+        ```
+        <section>
+            ...
+        </section><section>
+            ...
+        </section>
+        ```
+    - Alternatively, for formatting purposes, a comment can be inserted:
+        ```
+        <section>
+            ...
+        </section><!--
+        --><section>
+            ...
+        </section>   
+        ```
+
+## Reusable Layouts
+- Reusable layouts can be created to establish a grid-like effect on the page with equalivalent columns.
+- For instance, to create a layout that enables three columns of equal width or two columns with the width split between them:
+    ```
+    .col-1-3 {
+        width: 33.33%;
+    }
+    .col-2-3 {
+        width: 66.66%;
+    }
+
+    .col-1-3,
+    .col-2-3 {
+        display: inline-block;
+        vertical-align: top;
+    }
+    ```
+    - `col-1-3` can be used to create three equal columns.
+
+## Uniquely Position Elements
