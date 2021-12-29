@@ -73,3 +73,25 @@
     - `col-1-3` can be used to create three equal columns.
 
 ## Uniquely Position Elements
+- To uniquely position an element, the `position` property and box offset properties--`top`, `right`, `bottom`, and `left`--can be used.
+- Every element has a default `position` of `static`.
+
+### Relative Positioning
+- The `relative` value for the `position` property allows an element to appear within the normal flow of a page, and it allows it to be modified with the box offset properties.
+- The element is moved relative to its initial position.
+    ```
+    .offset {
+        left: 20px;
+        position: relative;
+        top: 20px;
+    }
+    ```
+    - For instance, the above code would move the box twenty pixels from the left and top.
+- Instead of moving an element beneath it down, it simply overlaps it.
+
+### Absolute Positioning
+- The `absolute` value for the `position` property means that the element does not appear within the normal flow of the document.
+- It is positioned in relation to its closest relatively positioned parent element.
+    - The `<body>` is the default.
+- In the below example, the `<div>` would be positioned twenty pixels to the left and down twenty pixels from the top right of the `<section>`.
+

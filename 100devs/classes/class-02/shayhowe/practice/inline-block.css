@@ -1,0 +1,17 @@
+header, section, footer{
+    box-sizing: border-box;
+    background-color: green;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.container{
+    background-color: red;
+}
+.one, .two, .three{
+    display: inline-block;
+    width: 30%;
+}

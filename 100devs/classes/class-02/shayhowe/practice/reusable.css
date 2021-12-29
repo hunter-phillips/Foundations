@@ -1,0 +1,23 @@
+header, section, footer{
+    box-sizing: border-box;
+    background-color: green;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/*
+Reusable Column Classes
+*/
+
+.col-1-3{
+    width: 30%;
+    display: inline-block;
+}
+.col-2-3{
+    width: 66%;
+    display: inline-block;
+}

@@ -1,0 +1,47 @@
+/* header, section, footer{
+    box-sizing: border-box;
+    background-color: green;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+section{
+    float: left;
+    width: 30%;
+}
+
+footer{
+    clear: both;
+} */
+
+header, section, footer{
+    box-sizing: border-box;
+    background-color: green;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.one, .two{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+section.one{
+    margin-left: 5px;
+    float: left;
+    width: 29%;
+}
+section.two{
+    float:right;
+    width: 70%;
+}
+
+footer{
+    clear: both;
+}
